@@ -6,11 +6,11 @@
 		"useIgnoreFile": true
 	},
 	"files": {
-		"ignoreUnknown": false
+		"ignoreUnknown": true
 	},
 	"formatter": {
 		"enabled": true,
-		"indentStyle": "tab"
+		"indentStyle": "space"
 	},
 	"linter": {
 		"enabled": true,
@@ -30,5 +30,13 @@
 				"organizeImports": "on"
 			}
 		}
+	},
+	"css": {
+		"formatter": {
+			"enabled": true
+		},
+		"parser": {
+    		"tailwindDirectives": true
+    	}
 	}
 }
